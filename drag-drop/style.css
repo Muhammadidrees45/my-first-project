@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+#left , #right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed #ffff;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    background-color: #e9163b;
+    min-height: 60px;
+    margin: 2rem;
+    border-radius: 1rem;
+    cursor: move;
+}
